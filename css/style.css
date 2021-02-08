@@ -1,0 +1,219 @@
+:root {
+  --main-blue: #2196F3;
+  --text-grey: #757575;
+  --title-grey: #212121;
+  --dark-back: #2F303A;
+  --light-back: #F5F4FA;
+  --white: #ffffff;
+  --text-white6: rgba(255, 255, 255, 0.6);
+  
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body { 
+  color: var(--text-grey);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h2,h3 {
+  color: var(--title-grey);
+} 
+
+/* Шапка */
+.header {
+  background-color: var(--white);}
+
+.header-nav a {
+  color: var(--title-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav a:hover,
+.header-nav a:focus {
+  color: var(--main-blue);
+}
+
+.header-nav .current {
+  color: var(--main-blue);
+}
+
+.header-contacts a {
+  color: var(--text-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--main-blue);
+}
+
+/* Лого */
+.header-logo, 
+.footer-logo{color: var(--main-blue);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;}  
+
+.header-logo span {
+  color: #000000;
+}
+
+.footer-logo span {
+  color: var(--white);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--dark-back);
+}
+
+.hero-title {
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn {
+  background-color: var(--main-blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Наши особености */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.specialty-title,.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+
+/* Наша команда */
+.team {
+  background-color: var(--light-back);
+}
+
+.team-list li {
+  background-color: var(--white);
+}
+
+.team-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;}
+
+/* Подвал */
+.footer {
+  background-color: var(--dark-back);
+}
+
+.footer-address, .footer-contacts{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-address {
+  color: var(--white);
+}
+
+.footer-contacts a{
+  color: var(--text-white6);
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--main-blue);
+}
+
+/* Портфолио */
+
+.filter button {
+  color: var(--title-grey);
+  background-color: var(--light-back);
+  border: none;
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filter button:hover,
+.filter button:focus {
+  background-color: var(--main-blue);
+  color: var(--white);
+}
+
+.portfolio li{ background-color: var(--white);
+}
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio  p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
