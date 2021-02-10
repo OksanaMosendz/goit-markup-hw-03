@@ -43,7 +43,8 @@ h1,h2,h3 {
 
 /* Шапка */
 .header {
-  background-color: var(--white);}
+  background-color: var(--white);
+  border-bottom: 1px solid #ECECEC;}
 
 .header-nav a {
   color: var(--title-grey);
@@ -68,7 +69,7 @@ h1,h2,h3 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
+}p
 
 .header-contacts a:hover,
 .header-contacts a:focus {
@@ -96,8 +97,10 @@ h1,h2,h3 {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-bottom: 94px;
+
   background-color: var(--dark-back);
   text-align: center;
+
 }
 
 .hero-title {
@@ -117,11 +120,10 @@ h1,h2,h3 {
   border-radius: 4px;
   min-width: 200px;
   padding: 10px 32px;
-  margin-bottom: 200px;
-
+  
   background-color: var(--main-blue);
   color: var(--white);
-
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -129,7 +131,16 @@ h1,h2,h3 {
   letter-spacing: 0.06em;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188CE8;
+}
+
 /* Наши особености */
+
+.features {
+  margin-bottom: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -160,6 +171,10 @@ h1,h2,h3 {
 }
 
 /* Чем мы занимаемся */
+.specialty {
+  margin-bottom: 94px;
+}
+
 .specialty-title,.team-title {
   font-weight: 700;
   font-size: 36px;
