@@ -43,13 +43,14 @@ h1,h2,h3 {
   margin-left: auto;
   margin-right: auto;
 
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 /* Шапка */
 .header {
   background-color: var(--white);
-  border-bottom: 1px solid #ECECEC;}
+  border-bottom: 1px solid #ECECEC;
+}
 
 .header-nav a {
   color: var(--title-grey);
@@ -109,7 +110,7 @@ h1,h2,h3 {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
+  
 
   background-color: var(--dark-back);
   text-align: center;
@@ -151,7 +152,8 @@ h1,h2,h3 {
 /* Наши особености */
 
 .features {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -184,7 +186,7 @@ h1,h2,h3 {
 .features-list>li {
   width: 270px;
   margin-right: 30px;
-
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .features p{
@@ -195,7 +197,7 @@ h1,h2,h3 {
 
 /* Чем мы занимаемся */
 .specialty {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .specialty-title,.team-title {
