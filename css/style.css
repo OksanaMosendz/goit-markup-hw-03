@@ -201,11 +201,12 @@ h1,h2,h3 {
 }
 
 .specialty-title,.team-title {
+  margin-bottom: 50px;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 
@@ -230,8 +231,6 @@ h1,h2,h3 {
 
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
-  
-
 }
 
 .team-list-content {
@@ -242,10 +241,11 @@ h1,h2,h3 {
 }
 
 .team-list h3 {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 10px;
 }
 
 .team-list p {
