@@ -58,6 +58,7 @@ img {
   border-bottom: 1px solid #ECECEC;
   padding-top: 24px;
   padding-bottom: 25px;
+  height: 80px;
 }
 
 .header .container,
@@ -65,11 +66,19 @@ img {
 .header-pages,
 .header-contacts {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* .header.container {align-items: center;} */
+.hd-page {
+  margin-left: 50px;
+}
 
-.header-pages a {
+.hd-page:first-child {
+  margin-left: 93px;
+}
+
+.hd-page {
   color: var(--title-grey);
   font-weight: 500;
   font-size: 14px;
@@ -88,10 +97,20 @@ img {
 
 .header-contacts a {
   color: var(--text-grey);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.hd-contact {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.hd-contact:last-child {
+  margin-right: 0;
 }
 
 .header-contacts a:hover,
