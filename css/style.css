@@ -129,11 +129,6 @@ img {
   line-height: 1.19;
 }  
 
-/* .footer-logo {
- 
-  margin-bottom: 20px;
-} */
-
 .header-logo span {
   color: #000000;
 }
@@ -263,6 +258,8 @@ img {
 .specialty-list>li {
   margin-top: 30px;
   margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+
 }
 
 /* Наша команда */
@@ -322,15 +319,21 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-address {
   margin: 0;
-
+  margin-top: 20px;
+      
   color: var(--white);
 }
 
 .footer-contacts a{
+  display: inline-block;
+  margin-top: 9px;
+
   color: var(--text-white6);
 }
 
