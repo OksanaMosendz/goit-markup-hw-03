@@ -48,8 +48,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid red;
 }
 
 /* Шапка */
@@ -151,8 +149,7 @@ img {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 696px;
-
+  
   color: var(--white);
 
   text-transform: uppercase;
@@ -361,8 +358,7 @@ img {
 
 .portfolio-filter button {
   padding: 6px 22px;
-  margin-right: 8px;
-
+  
   color: var(--title-grey);
   background-color: var(--light-back);
   border: none;
@@ -373,6 +369,14 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.portfolio-filt-btn {
+  margin-right: 8px;
+}
+
+.portfolio-filt-btn:last-child {
+  margin-right: 0;
 }
 
 .portfolio-filter button:hover,
